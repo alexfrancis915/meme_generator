@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(36, 0, 45);
+    color: rgb(255,255,255);
+    letter-spacing: 8px;
+    line-height: 1.5;
+    font-family:monospace;
+    align-content:center;
+    display:block;
+}
+
+h1{
+    text-align: center;
+    color:rgb(0, 199, 146);
+}
+
+h2{
+    text-align: right;
+    color: rgb(0, 206, 206);
+}
+
+h4{
+    text-align: center;
+    color: rgb(255, 128, 238);
+}
+
+#memeimageinput{
+    text-align:center;
+    align-content: center;
+    margin: 0px;
+    z-index: 90%;
+    color:rgba(0,0,0,1);
+    /*display:none;*/
+}
+
+#background-image{
+    z-index: 95%;
+}
+
+p{
+    z-index:10%
+}
+#memeinputlabel{
+    align-content:center;
+    z-index: 100%;
+}
+
+#submit{
+    padding: 0px;
+    width: 150px;
+    height:40px;
+    border: 0px;
+    border-radius: 50px;
+    color: rgb(0, 78, 88);
+    background-color:rgb(0, 199, 146);
+    letter-spacing: 5px;
+    font-size: 14px;
+    text-align: center;
+    margin:auto;
+    align-content:center;
+    display:block;
+   /* margin: 5px 0% 5px 44%;*/
+}
+
+
+
+#memeimagediv{
+    margin: auto;
+    height: 350px;
+    width: 400px;
+    border:0px;
+    border-radius:20px;
+    background-color: rgb(255, 128, 238);
+    text-align: center;
+    background-position:center;
+    background-size:cover;
+    z-index: 80%;
+    align-content:center;
+}
+
+image{
+    align-content:center;
+    z-index: 97%;
+}
+
+form{
+    left:50%;
+    align-content:center;
+}
+
+#toptext::placeholder{
+    color:rgba(36, 0, 45, .9);
+     font-size: 20px;
+     text-shadow: none;
+     letter-spacing:8px;
+}
+
+#bottomtext::placeholder{
+    color:rgba(36, 0, 45, .9);
+    font-size: 20px;
+    text-shadow: none;
+    letter-spacing:8px;
+}
+
+
+
+#toptext{
+    margin:0px;
+    padding:0px;
+    min-width:400px;
+    min-height:110px;
+    max-width:400px;
+    max-height:110px;
+    border: 0px;
+    text-align: center;
+    line-height: normal;
+    background-color:rgba(0,0,0,0);
+    color:rgb(255,255,255);
+    z-index:99%;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    border: none;
+}
+
+#bottomtext{
+    margin: 0px;
+    padding:0px;
+    min-width:400px;
+    min-height:110px;
+    max-width:400px;
+    max-height:110px;
+    border: 0px;
+    line-height: normal;
+    text-align: center;
+    background-color:rgba(0,0,0,0);
+    z-index:99%;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
